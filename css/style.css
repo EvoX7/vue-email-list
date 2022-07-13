@@ -27,3 +27,8 @@ li {
   text-align: center;
   color: #38eeae;
 }
+
+.list {
+  display: flex;
+  flex-direction: column;
+}

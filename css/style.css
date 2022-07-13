@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ms-container {
+  background-color: #182342;
+  width: 800px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  box-shadow: 5px 10px #dad873;
+}
+
+body {
+  background-color: #309975;
+}
+
+h1 {
+  color: #dad873;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+li {
+  list-style: none;
+  text-align: center;
+  color: #38eeae;
+}

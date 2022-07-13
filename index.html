@@ -31,9 +31,9 @@
           <h1>My greatest email list !</h1>
           <br>
           <ul class="list-group">
-            <li class="fs-3 fw-bold list" v-for="email in emailsArray">
+            <li class="fs-3 fw-bold list" v-for="(email, index) in emailsArray">
               <!-- ?Dynamic populated list  -->
-              {{ emailResponse }}
+              {{ emailsArray[index] }}
             </li>
           </ul>
         </div>
